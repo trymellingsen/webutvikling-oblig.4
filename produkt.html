@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hentet kode fra forelesningsmateriale, for å få inn symboler-->
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">    
+    <!--Hentet kode fra forelesningsmateriale-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Easyfoot</title>
+</head>
+<body>
+    <!-- Header for alle sider -->
+    <header>
+        <nav>
+            <div id="navbar">
+                <div>
+                    <span id="logo">
+                        <a href="index.html">
+                            <img src="img/logo_transparent.png" alt="Hjem">
+                        </a>
+                    </span>
+                    <ul id="brukerhandling">
+                        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                    </ul>
+                </div>
+                <div id="søkefelt-meny">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Søk her">
+                    <i id="ham" class="fa-solid fa-bars"></i>
+                </div>
+                <ul id="kjønnsmeny">
+                    <li><a href="#">Dame</a></li>
+                    <li><a href="#">Herre</a></li>
+                    <li><a href="#">Barn</a></li>
+                </ul>
+            </div>
+            <ul id="meny-desktop">
+                <li><a href="flerprodukt.html">Produkter</a></li>
+                <li><a href="#">Sandaler</a></li>
+                <li><a href="#">Tøfler</a></li>
+                <li><a href="#">Slip-ins</a></li>
+                <li><a href="#">Flip-flops</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-produkt">
+        <!--Brukt sections for å kunne plassere dele opp i grids, -->
+        <section id="produkt-bilder">
+            <a href="flerprodukt.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/Sort%20crocs%20-%20produktbilde.png" alt="Produkt">
+            <h4>Farge: Sort</h4>
+            <img src="img/crocs-fargevalg.jpg" alt="Produkt">
+        </section>
+        <div id="produkt-midtseksjon-desktop">
+            <section id="produkt-tekst">
+                <h2>Crocs</h2>
+                <p>Classic</p>
+                <p>499,90 kr</p>
+            </section>
+            <section id="produkt-valg">
+                <article>
+                    <!--Brukte chat.gpt for å generere drop down elementet for sko str.-->
+                    <select id="sko-storrelse" name="size">
+                        <option value="velg-storrelse">Velg størrelse</option>
+                        <option value="str-45">45</option>
+                        <option value="str.46">46</option>
+                        <option value="str.47">47</option>
+                    </select>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </article>
+                <p>Vurdering:
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </p>
+            </section>
+        </div>
+            <section id="produkt-informasjon">
+                    <p>
+                        Om produktet
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </p>
+            </section>
+            <section id="om-produktet-desktop">
+                <p>
+                    Materiale og vedlikehold
+                    <i class="fa-solid fa-chevron-down"></i>
+                </p>
+                <p>
+                    Produktdetaljer
+                    <i class="fa-solid fa-chevron-down"></i>
+                </p>
+                <p>
+                    Passform
+                    <i class="fa-solid fa-chevron-down"></i>
+                </p>
+            </section>
+    </main>
+    <!--Footer for alle sider-->
+    <footer>
+        <nav>
+            <ul id="footer-topp">
+                <li><a href="#">Kundeservice</a></li>
+                <li><a href="#">Retur</a></li>
+            </ul>
+            <ul id="footer-bunn">
+                <li id="sosialemedier"><a href="#">Sosiale medier</a></li>
+                <li><a href="#">Om oss</a></li>
+            </ul>
+            <article id="footer-tittel">
+                <h3>Hjelp</h3>
+                <h3>Om oss</h3>
+                <h3>Følg oss</h3>
+            </article>
+            <div id="footer-desktop">
+                <ul id="hjelp-og-kontakt">
+                    <li>Kundeservice</li>
+                    <li>Betaing</li>
+                    <li>Faktura</li>
+                    <li>Retur</li>
+                    <li>Registrering</li>
+                </ul>
+                <ul id="om-oss">
+                    <li>Ledige stillinger</li>
+                    <li>Rabattkoder</li>
+                    <li>Nyhetsbrev</li>
+                    <li>Våre merker</li>
+                </ul>
+                <ul id="følg-ogg">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>X</li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
